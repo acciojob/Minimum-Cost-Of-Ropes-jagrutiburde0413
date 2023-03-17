@@ -10,11 +10,11 @@ function calculateMinCost() {
   }
   var cost = 0;
 	
- 
-  while (inputArr.length > 1) {
-	  inputArr.sort(function(a,b){
+  inputArr.sort(function(a,b){
 	return a-b;
 	})
+  while (inputArr.length > 1) {
+	 
     var newRope = inputArr[0] + inputArr[1];
     cost += newRope;
 
