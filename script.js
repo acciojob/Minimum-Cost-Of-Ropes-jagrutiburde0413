@@ -13,15 +13,12 @@ function calculateMinCost() {
           cost=cost+newRope;
 		inputArr.splice(0,2)
 		inputArr.push(newRope)
-		inputArr.sort(function (a,b){
-		return a-b;
 	}
 					  
-  )
+  
 
 
 document.querySelector("#result").textContent=cost;
 		
-	}
-  
+	
 }  
