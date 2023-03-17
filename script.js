@@ -21,6 +21,9 @@ function calculateMinCost() {
     // delete first two element
     inputArr.splice(0, 2);
     inputArr.push(newRope);
+	   inputArr.sort(function(a,b){
+	return a-b;
+	})
     //alert(newRope);
   }
   document.querySelector("#result").textContent = cost;
