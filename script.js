@@ -20,7 +20,7 @@ function calculateMinCost() {
   )
 
 
-document.querySelector("#result").testContent=cost;
+document.querySelector("#result").textContent=cost;
 		
 	}
   
